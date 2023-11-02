@@ -1,0 +1,57 @@
+                        RESTAURANT LISTING APP (FRONT-END)
+                    -------------------------------------------
+    
+
+    1.  Create a new project folder RESTAURANT-LISTING
+    2.  Inside it Create react- project - npx create-react-app restaurant-listing-app
+    3.  Clear the unwanted codes and files
+    4.  Install the 3rd party libraries
+        1.  React-bootstrap - npm install react-bootstrap bootstrap      
+        2.  mdb-bootstrap/material ui
+        3.  font Awesome
+        4.  google-fonts
+        5.  bootswatch
+
+    5.  Create components
+        1.  Header folder
+            Header.jsx
+            Header.css
+        2.  AllRest folder (Main) 
+            AllRest.jsx
+            AllRest.css
+        3.  Footer folder
+            Footer.jsx
+            Footer.css
+
+    6.  Create Json-Server
+
+    7.  API Fetching
+
+    8.  AXIOS - npm i axios
+            ->Introduction to Axios: Axios, which is a popular library is mainly used to send asynchronous HTTP
+            requests to REST endpoints. 
+            ->This library is very useful to perform CRUD operations.
+            ->This popular library is used to communicate with the backend.
+            ->Axios supports the Promise API, native to JS ES6.
+            Using Axios we make API requests in our application. Once the request is made we get
+            the data in Return, and then we use this data in our project.
+   
+    9.  Get All restaurant data (API CALL) - In AllRest components
+                ->Import Axios
+                ->Create a function for fetching data
+                ->Create a state for holding the data
+
+    10. Path Setup
+            localhost:3000 - AllRest components
+            localhost:3000/view/1 - ViewRest components
+
+            Routing - react-router-dom -library
+
+            ->BrowserRouter - To render full application
+            ->Routes - Used to hold multiple Routes
+            ->Route - Used for single component path 
+
+            Install - npm i react-router-dom
+
+    11. LINK 
+        Used to redirect one page from another
